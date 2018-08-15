@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package dependant;
+
+option go_package = "github.com/jyellick/examples/protos/dependant";
+
+import "common/common.proto";
+
+message Other {
+    common.Reply reply = 1;
+    bytes payload = 2;
+}
