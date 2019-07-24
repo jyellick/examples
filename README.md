@@ -13,3 +13,5 @@ protoc --proto_path=$GOPATH/src/github.com/jyellick/examples/protos --go_out=$GO
 ```
 
 You may verify the protos appropriately link by looking at `cmd/example/main.go` and building the binary.
+
+Testing to see if Github PR stacking is still busted
